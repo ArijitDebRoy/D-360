@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>VR DEMO using A-FRAME</title>
+    <meta name="description" content="VR DEMO using A-FRAME">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="aframe/aframe.js"></script>
+    <!--<script src="https://aframe.io/releases/0.8.0/aframe.min.js"></script>-->
+</head>
+<body>
+<div style="width: 400px;cursor: pointer;">
+
+    <a-scene>
+        <!--<a-assets>-->
+            <!--<video id="penguin-sledding" autoplay loop="true" src="paris-by-diego.mp4"></video>-->
+        <!--</a-assets>-->
+
+        <!--&lt;!&ndash; Using the asset management system. &ndash;&gt;
+        <a-video src="#penguin-sledding" width="16" height="9" position="0 0 -20"></a-video>
+
+        &lt;!&ndash; Defining the URL inline. Not recommended but more comfortable for web developers. &ndash;&gt;
+        <a-video src="paris-by-diego.mp4"></a-video>-->
+        <a-videosphere src="paris-by-diego.mp4"></a-videosphere>
+    </a-scene>
+
+</div>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" ></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" ></script>
+</body>
+</html>
